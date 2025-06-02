@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+	<link rel="stylesheet" href="css/css.css">
+	<title>Sharkins Designs</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+
+	<div id="container">
+
+	<!-- logo and inline styling for photo -->
+	<header>
+		<a href="index.html"><img src="images/personallogoweb.svg" alt="Personal Logo" style="width: 100%;"></a>	
+	</header>
+	
+	<!-- hyperlinks to pages within website -->
+	<nav>
+		<ul>
+			<li><a href="index.html">About</a></li>
+			<li><a href="projects.html">Projects</a></li>
+			<li><a href="communityservice.html">Community Service</a></li>
+			<li><a href="accomplishments.html">Accomplishments</a></li>
+			<li><a href="contact.html">Contact</a></li>
+		</ul>
+	</nav>
+	
+	<main>
+		<h1>Advanced</h1>
+			<button type="button" class="collapsible">Logo Creation</button>
+				<div class="content">
+				<img src="images/bbcosmetics.jpg" alt="BB Cosmetics">
+				</div>
+				
+			<button type="button" class="collapsible">Typography</button>
+				<div class="content">
+					<img src="images/manatee.svg" alt="Manatee">
+					<img src="images/corgiotype.svg" alt="Corgi">
+				</div>
+				
+			<button type="button" class="collapsible">Package Design</button>
+				<div class="content">
+					<img src="images/citrecesa.svg" alt="Citrecesa Soda Bottle">
+				</div>
+				
+			<button type="button" class="collapsible">Apparel Design</button>
+				<div class="content">
+					<img src="images/citrecesaapparel.svg" alt="Citrecesa Apparel">
+				</div>
+				
+			<button type="button" class="collapsible">Rebranding</button>
+				<div class="content">
+					<img src="images/logo.svg" alt="Chengdu Gourmet">
+					<img src="images/cover.svg" alt="Menu Cover">
+					<img src="images/menu1.svg" alt="Menu Pages">
+					<img src="images/menu2.svg" alt="Menu Pages">
+					<img src="images/letter.svg" alt="Letter Head">
+					<img src="images/envelope.svg" alt="Envelope">
+					<img src="images/postcard.svg" alt="Post Card Front">
+					<img src="images/postcard2.svg" alt="Post Card Back">
+					<img src="images/card.svg" alt="Card Front">
+					<img src="images/card2.svg" alt="Card Back">
+				</div>
+				
+			<button type="button" class="collapsible">Poster Designs</button>
+				<div class="content">
+					<img src="images/paparazziposter.jpg" alt="Paparazzi Poster">
+					<img src="images/fanad.svg" alt="Fan Ad">
+				</div>
+	</main>
+
+	<main>
+		<h1>Beginner</h1>
+			<button type="button" class="collapsible">Photography and Editing</button>
+				<div class="content">
+					<img src="images/product1.jpg" alt="P1">
+					<img src="images/product3.jpg" alt="P3">
+					<img src="images/product4.jpg" alt="P4">
+					<img src="images/product2.jpg" alt="P2">
+					<img src="images/product5.jpg" alt="P5">
+				</div>
+	</main>
+			
+	<main>
+		<h1>Program Proficiency</h1>
+			<p>Adobe Illustrator: Advanced</p>
+			<p>Adobe Photoshop: Intermediate</p>
+			<p>Adobe After Effects: Intermediate</p>
+	</main>
+	
+	<footer>
+		<p>All works contained in this site are copyright 2025 Sarah Harkins. Any content that contains an element of intellectual property was used in a not-for-profit, educational manner as per the Fair Use Doctrine of 1979, and are used as examples of work only.</p>
+	&copy; Copyright 2025. All Rights Reserved.<br>
+		<a href="mailto:sharkinsdesigns@gmail.com">sharkinsdesigns@gmail.com</a>
+	</footer>
+	
+	</div>
+	<script>
+	var coll = document.getElementsByClassName("collapsible");
+	var i;
+	
+	for (i = 0; i < coll.length; i++) {
+		coll[i].addEventListener("click", function() {
+		this.classList.toggle("active");
+		var content = this.nextElementSibling;
+		if (content.style.display === "block") {
+		content.style.display = "none";
+		} else {
+			content.style.display = "block";
+		}
+	});
+	}
+	</script>
+</body>
+
+</html>
